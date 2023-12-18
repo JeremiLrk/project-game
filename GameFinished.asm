@@ -46,7 +46,7 @@ exit:
     syscall
 
 # Hieronder volgen de functiedefinities voor het vinden van posities, inlezen van het doolhof, 
-# kleuren toewijzen en de bewegingslogica. Elke functie bevat instructies specifiek voor haar taak.
+# kleuren toewijzen en de bewegingslogica.
 
 
 
