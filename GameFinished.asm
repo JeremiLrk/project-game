@@ -103,8 +103,8 @@ exit:
     	# Bestand openen met het doolhof
     	li $v0, 13            # Systeemaanroep code voor openen bestand
     	la $a0, mazeFilename  # Pad naar het doolhofbestand
-    	li $a1, 0             # Vlaggen (0 voor alleen-lezen)
-    	li $a2, 0             # Modus (niet relevant bij lezen)
+    	li $a1, 0             
+    	li $a2, 0             
     	syscall               # Voer systeemaanroep uit
     	move $s0, $v0         # Bewaar file descriptor in $s0
 	
